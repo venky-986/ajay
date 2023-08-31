@@ -1,0 +1,12 @@
+runtime: python37
+default_expiration: '2s'
+
+handlers:
+- url: /
+  static_files: ajay/index.html
+  upload: ajay/index.html
+  expiration: '2s'
+
+- url: /
+  static_dir: ajay
+  expiration: '2s'
