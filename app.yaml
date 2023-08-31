@@ -3,10 +3,10 @@ default_expiration: '2s'
 
 handlers:
 - url: /
-  static_files: ajay/index.html
-  upload: ajay/index.html
+  static_files: ajay-main/index.html
+  upload: ajay-main/index.html
   expiration: '2s'
 
 - url: /
-  static_dir: ajay
+  static_dir: ajay-main/index.html
   expiration: '2s'
